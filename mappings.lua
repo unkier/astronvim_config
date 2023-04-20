@@ -20,6 +20,12 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<F2>"] = { ":w<cr>" },
+    ["<F10>"] = { ":q<cr>" },
+    ["<A-j>"] = { "4j" },
+    ["<A-k>"] = { "4k" },
+    ["<A-q>"] = { ":bprev<cr>" },
+    ["<A-e>"] = { ":bnext<cr>" }
   },
   t = {
     -- setting a mapping to false will disable it
